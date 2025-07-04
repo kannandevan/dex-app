@@ -17,7 +17,8 @@ function App() {
     // console.log('App component mounted');
   }, []);
   return (
-    <div className="App">
+    <div className="App text-center">
+      <h1 className="mt-5">Token Lists</h1> 
       <TokenLists />
     </div>
   );
